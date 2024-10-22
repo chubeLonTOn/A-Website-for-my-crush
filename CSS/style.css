@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: none;
+}
+
+.container
+
+.princess {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    color: var(--clr-rgba);
+    color: var(--clr-accent);
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+    align-items: center;
+    display: block;
+    top: 50%;
+    transition: transform 0.3s ease;
+}
+
+.princess:hover {
+    transform: translateY(-10px);
+}
